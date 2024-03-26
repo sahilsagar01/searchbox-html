@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#searchbody{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./mountain-landscape-with-wood-plank-table-outdoors-generative-ai.jpg");
+    background-size: cover;
+}
+.main{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.searchbox{
+    width: 30rem;
+    height: 5rem;
+    background-color: transparent;
+    backdrop-filter: blur(10px); 
+    opacity: 0.8; 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.searchbox input{
+    width: 70%;
+    height: 50%;
+    font-size: 1.5rem;
+}
+.searchresult{
+    width: 30rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 20rem;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+.searchresult::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+.searchresult::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: orange;
+    border: 1px solid #fff;
+    transition: all 0.5s ease-in-out;
+  }
+  
+.searchresult::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 153, 0);
+    border: 2px solid #fff;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+  }
+  
+.searchresult::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+.searchresult .card{
+    display: none;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid rgba(136, 134, 134, 0.384);
+}
+.searchresult p{
+    margin: 0;
+    padding: 10px;
+}
+.card.hide{
+    display: block;
+}
