@@ -26,7 +26,7 @@ body{
     font-size: 1.5rem;
 }
 .searchbox{
-    width: 30rem;
+    width: 32rem;
     height: 5rem;
     background-color: transparent;
     backdrop-filter: blur(10px); 
@@ -46,6 +46,9 @@ body{
     width: 70%;
     height: 50%;
     font-size: 1.5rem;
+    border: 1px solid rgba(255, 174, 22, 0.574);
+    border-radius: 20px;
+    padding-left: 15px;
 }
 .searchresult{
     width: 30rem;
