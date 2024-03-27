@@ -161,7 +161,6 @@ const data = [
     { name: 'BMW i8' },
     { name: 'Mercedes-AMG GT' },
     { name: 'Honda CB Shine' },
-    { name: 'Bajaj Pulsar' },
     { name: 'TVS Apache' },
     { name: 'Yamaha FZ' },
     { name: 'Hero Splendor' },
